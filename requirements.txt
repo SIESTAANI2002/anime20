@@ -1,0 +1,8 @@
+aiohttp
+python-decouple
+pyaesni
+psutil
+speedtest-cli
+https://github.com/1Danish-00/Telethon/archive/master.zip
+html_telegraph_poster
+lxml[html_clean]
