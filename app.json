@@ -1,32 +1,21 @@
 {
-    "name": "TGVid-Comp",
-    "description": "A telegram video encoder.",
-    "logo": "https://telegra.ph/file/3ca32c39654a059500708.jpg",
-    "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
-    "repository": "https://github.com/Zylern/TGVid-Comp",
-    "success_url": "",
-    "stack": "container",
-    "env": {
-        "APP_ID": {
-            "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "You api hash get it from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
-        },
-        "BOT_TOKEN": {
-            "description": "Make a bot from @BotFather and enter it's api token",
-            "value": ""
-        },
-        "OWNER": {
-            "description": "Put ids of user which can access the bot e.g 123456789",
-            "value": ""
-        },
-        "THUMBNAIL": {
-            "description": "Put Link of any picture.",
-            "value": "https://telegra.ph/file/f9e5d783542906418412d.jpg",
-            "required": false
-        }
+  "name": "Anime20 Bot",
+  "description": "A Telegram bot deployed to Heroku using Docker.",
+  "repository": "https://github.com/SIESTAANI2002/anime20",
+  "keywords": ["telegram", "bot", "python", "docker"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
     }
+  },
+  "stack": "container"
 }
