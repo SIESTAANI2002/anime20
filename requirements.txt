@@ -6,3 +6,8 @@ speedtest-cli
 https://github.com/1Danish-00/Telethon/archive/master.zip
 html_telegraph_poster
 lxml[html_clean]
+python-telegram-bot==20.5
+requests
+beautifulsoup4
+moviepy
+ffmpeg-python
